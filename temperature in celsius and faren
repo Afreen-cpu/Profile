@@ -1,0 +1,3 @@
+celsius=float(input("enter temp in celsius"))
+faren=(celsius*0/5)+32
+print("temperature in faren",faren)
