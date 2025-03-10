@@ -1,0 +1,9 @@
+
+def is_even_or_odd(number):
+    if number != 0:
+        if number % 2 == 0:
+            print('Number is Even')
+        else:
+            print('Number is Odd')
+    else:
+        print('Number is neither even nor odd')
