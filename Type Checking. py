@@ -1,0 +1,6 @@
+value = input("Enter a value: ")
+try:
+    eval_value = eval(value)
+    print("Data type:", type(eval_value))
+except:
+    print("Data type:",
