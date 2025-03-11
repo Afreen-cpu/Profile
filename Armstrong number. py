@@ -1,0 +1,3 @@
+num = int(input("Enter a number: "))
+sum_power = sum(int(digit) ** len(str(num)) for digit in str(num))
+print(num, "is an Armstrong number" if sum_power == num else "is not an Armstrong number")
