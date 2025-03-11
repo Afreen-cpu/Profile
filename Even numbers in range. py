@@ -1,0 +1,4 @@
+
+start, end = map(int, input("Enter start and end of range: ").split())
+sum_even = sum(i for i in range(start, end + 1) if i % 2 == 0)
+print("Sum of even numbers:", sum_even)
