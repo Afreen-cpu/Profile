@@ -1,0 +1,12 @@
+Afreen=ya=["Affu","monna","sudha","kavya"]
+Afreen[0]="Thrisha"
+Afreen.append("")
+Afreen.insert(-1,"sudha")
+print(Afreen)
+Afreen.remove("monna")
+print(Afreen)
+Afreen.pop()
+Afreen.pop()
+print(Afreen)
+Afreen.clear()
+print(Afreen)
